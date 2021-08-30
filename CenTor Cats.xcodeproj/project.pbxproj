@@ -15,6 +15,8 @@
 		CEE49D2626DC77A000EAFE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFB26DC779F00EAFE4B /* ContentView.swift */; };
 		CEE49D2726DC77A000EAFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE49CFC26DC77A000EAFE4B /* Assets.xcassets */; };
 		CEE49D2826DC77A000EAFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE49CFC26DC77A000EAFE4B /* Assets.xcassets */; };
+		CEE49D3C26DC7F4C00EAFE4B /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49D3B26DC7F4C00EAFE4B /* Breed.swift */; };
+		CEE49D3E26DC81C900EAFE4B /* BreedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49D3D26DC81C900EAFE4B /* BreedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CEE49D1C26DC77A000EAFE4B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE49D2026DC77A000EAFE4B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CEE49D2226DC77A000EAFE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE49D3B26DC7F4C00EAFE4B /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		CEE49D3D26DC81C900EAFE4B /* BreedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,10 @@
 		CEE49CF926DC779F00EAFE4B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				CEE49CFA26DC779F00EAFE4B /* CenTor_CatsApp.swift */,
+				CEE49D3A26DC7F2100EAFE4B /* model */,
+				CEE49D3926DC7F1300EAFE4B /* networking */,
+				CEE49D3726DC7EEC00EAFE4B /* view */,
+				CEE49CFA26DC779F00EAFE4B /* CenTorCatsApp.swift */,
 				CEE49CFB26DC779F00EAFE4B /* ContentView.swift */,
 				CEE49CFC26DC77A000EAFE4B /* Assets.xcassets */,
 			);
@@ -149,6 +156,29 @@
 				CEE49D2226DC77A000EAFE4B /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		CEE49D3726DC7EEC00EAFE4B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CEE49D3926DC7F1300EAFE4B /* networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		CEE49D3A26DC7F2100EAFE4B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE49D3B26DC7F4C00EAFE4B /* Breed.swift */,
+				CEE49D3D26DC81C900EAFE4B /* BreedImage.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE49D3E26DC81C900EAFE4B /* BreedImage.swift in Sources */,
+				CEE49D3C26DC7F4C00EAFE4B /* Breed.swift in Sources */,
 				CEE49D2526DC77A000EAFE4B /* ContentView.swift in Sources */,
-				CEE49D2326DC77A000EAFE4B /* CenTor_CatsApp.swift in Sources */,
+				CEE49D2326DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE49D2626DC77A000EAFE4B /* ContentView.swift in Sources */,
-				CEE49D2426DC77A000EAFE4B /* CenTor_CatsApp.swift in Sources */,
+				CEE49D2426DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
