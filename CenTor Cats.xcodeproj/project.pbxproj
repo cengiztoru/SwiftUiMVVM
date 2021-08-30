@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7127C426DD6D370040E57D /* BreedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C326DD6D370040E57D /* BreedFetcher.swift */; };
+		CE7127C626DD735D0040E57D /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C526DD735D0040E57D /* BreedListView.swift */; };
+		CE7127C826DD737F0040E57D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C726DD737F0040E57D /* ErrorView.swift */; };
+		CE7127CA26DD73930040E57D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C926DD73930040E57D /* LoadingView.swift */; };
 		CEE49D1626DC77A000EAFE4B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49D1526DC77A000EAFE4B /* Tests_iOS.swift */; };
 		CEE49D2126DC77A000EAFE4B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49D2026DC77A000EAFE4B /* Tests_macOS.swift */; };
 		CEE49D2326DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFA26DC779F00EAFE4B /* CenTorCatsApp.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7127C326DD6D370040E57D /* BreedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedFetcher.swift; sourceTree = "<group>"; };
+		CE7127C526DD735D0040E57D /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
+		CE7127C726DD737F0040E57D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		CE7127C926DD73930040E57D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		CEE49CFA26DC779F00EAFE4B /* CenTorCatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenTorCatsApp.swift; sourceTree = "<group>"; };
 		CEE49CFB26DC779F00EAFE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEE49CFC26DC77A000EAFE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,6 +169,9 @@
 		CEE49D3726DC7EEC00EAFE4B /* view */ = {
 			isa = PBXGroup;
 			children = (
+				CE7127C526DD735D0040E57D /* BreedListView.swift */,
+				CE7127C726DD737F0040E57D /* ErrorView.swift */,
+				CE7127C926DD73930040E57D /* LoadingView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 		CEE49D3926DC7F1300EAFE4B /* networking */ = {
 			isa = PBXGroup;
 			children = (
+				CE7127C326DD6D370040E57D /* BreedFetcher.swift */,
 			);
 			path = networking;
 			sourceTree = "<group>";
@@ -341,7 +353,11 @@
 				CEE49D3E26DC81C900EAFE4B /* BreedImage.swift in Sources */,
 				CEE49D3C26DC7F4C00EAFE4B /* Breed.swift in Sources */,
 				CEE49D2526DC77A000EAFE4B /* ContentView.swift in Sources */,
+				CE7127C426DD6D370040E57D /* BreedFetcher.swift in Sources */,
+				CE7127C826DD737F0040E57D /* ErrorView.swift in Sources */,
+				CE7127CA26DD73930040E57D /* LoadingView.swift in Sources */,
 				CEE49D2326DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */,
+				CE7127C626DD735D0040E57D /* BreedListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

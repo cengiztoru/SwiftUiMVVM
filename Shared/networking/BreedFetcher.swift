@@ -38,12 +38,15 @@ class BreedFetcher: ObservableObject {
                 
                 do {
                     let breeds = try decoder.decode([Breed].self, from: data)
-                    
+                    print(breeds)
                     DispatchQueue.main.async {
                         self.breeds = breeds
                     }
                     
                 } catch {
+                    DispatchQueue.main.async {
+                        errorString = error.localizedDescription
+                    }
                     print(error)
                 }
                 
@@ -51,5 +54,6 @@ class BreedFetcher: ObservableObject {
         }
         
         task.resume()
-
+        
+    }
 }
