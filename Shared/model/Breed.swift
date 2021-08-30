@@ -39,7 +39,7 @@ struct Breed: Codable, CustomStringConvertible, Identifiable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         id = try values.decode(String.self, forKey: .id)
-       name = try values.decode(String.self, forKey: .name)
+        name = try values.decode(String.self, forKey: .name)
         temperament = try values.decode(String.self, forKey: .temperament)
         breedExplaination = try values.decode(String.self, forKey: .breedExplaination)
         energyLevel = try values.decode(Int.self, forKey: .energyLevel)
