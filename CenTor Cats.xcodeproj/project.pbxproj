@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		CEE49D1626DC77A000EAFE4B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49D1526DC77A000EAFE4B /* Tests_iOS.swift */; };
 		CEE49D2126DC77A000EAFE4B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49D2026DC77A000EAFE4B /* Tests_macOS.swift */; };
-		CEE49D2326DC77A000EAFE4B /* CenTor_CatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFA26DC779F00EAFE4B /* CenTor_CatsApp.swift */; };
-		CEE49D2426DC77A000EAFE4B /* CenTor_CatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFA26DC779F00EAFE4B /* CenTor_CatsApp.swift */; };
+		CEE49D2326DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFA26DC779F00EAFE4B /* CenTorCatsApp.swift */; };
+		CEE49D2426DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFA26DC779F00EAFE4B /* CenTorCatsApp.swift */; };
 		CEE49D2526DC77A000EAFE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFB26DC779F00EAFE4B /* ContentView.swift */; };
 		CEE49D2626DC77A000EAFE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49CFB26DC779F00EAFE4B /* ContentView.swift */; };
 		CEE49D2726DC77A000EAFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE49CFC26DC77A000EAFE4B /* Assets.xcassets */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEE49CFA26DC779F00EAFE4B /* CenTor_CatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenTor_CatsApp.swift; sourceTree = "<group>"; };
+		CEE49CFA26DC779F00EAFE4B /* CenTorCatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenTorCatsApp.swift; sourceTree = "<group>"; };
 		CEE49CFB26DC779F00EAFE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEE49CFC26DC77A000EAFE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE49D0126DC77A000EAFE4B /* CenTor Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CenTor Cats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
