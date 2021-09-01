@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5A243526E0149600FDAB5C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A243426E0149600FDAB5C /* APIError.swift */; };
 		CE7127C426DD6D370040E57D /* BreedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C326DD6D370040E57D /* BreedFetcher.swift */; };
 		CE7127C626DD735D0040E57D /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C526DD735D0040E57D /* BreedListView.swift */; };
 		CE7127C826DD737F0040E57D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7127C726DD737F0040E57D /* ErrorView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE5A243426E0149600FDAB5C /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		CE7127C326DD6D370040E57D /* BreedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedFetcher.swift; sourceTree = "<group>"; };
 		CE7127C526DD735D0040E57D /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
 		CE7127C726DD737F0040E57D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7127C326DD6D370040E57D /* BreedFetcher.swift */,
+				CE5A243426E0149600FDAB5C /* APIError.swift */,
 			);
 			path = networking;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				CE7127CA26DD73930040E57D /* LoadingView.swift in Sources */,
 				CEE49D2326DC77A000EAFE4B /* CenTorCatsApp.swift in Sources */,
 				CE7127C626DD735D0040E57D /* BreedListView.swift in Sources */,
+				CE5A243526E0149600FDAB5C /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
